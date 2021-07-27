@@ -9,7 +9,8 @@ if (elegir >= 1000) {
     alert("de 10 a 50")
 }
 if (saludo == "Hola") {
-    console.log("Bienvenido");
+    console.log("Bienvenido " + nombre);
+    alert("Bienvenido " + nombre)
 } else {
-    alert("Saluda como corresponde");
+    alert("Saluda como corresponde, " + nombre);
 }
